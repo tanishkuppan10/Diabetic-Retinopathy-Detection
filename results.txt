@@ -1,0 +1,17 @@
+[1m12/12[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 569ms/step - accuracy: 0.7738 - loss: 0.6698
+Test Accuracy: 77.38%
+
+[1m12/12[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m11s[0m 763ms/step
+Classification Report:
+                precision    recall  f1-score   support
+
+          Mild       0.67      0.05      0.10        37
+      Moderate       0.64      0.85      0.73       100
+         No_DR       0.93      0.97      0.95       181
+Proliferate_DR       0.50      0.57      0.53        30
+        Severe       0.44      0.21      0.29        19
+
+      accuracy                           0.77       367
+     macro avg       0.64      0.53      0.52       367
+  weighted avg       0.77      0.77      0.74       367
+
